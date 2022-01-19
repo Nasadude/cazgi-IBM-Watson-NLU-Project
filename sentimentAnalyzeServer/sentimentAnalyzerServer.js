@@ -1,4 +1,6 @@
 const express = require('express');
+const dotenv = require('dotenv');
+
 const app = new express();
 const NaturalLanguageUnderstandingV1 = require('ibm-watson/natural-language-understanding/v1');
 const { IamAuthenticator } = require('ibm-watson/auth');
@@ -14,7 +16,7 @@ app.use(cors_app());
 /*Uncomment the following lines to loan the environment 
 variables that you set up in the .env file*/
 
-const dotenv = require('dotenv');
+
 dotenv.config();
 
 const api_key = process.env.API_KEY;
