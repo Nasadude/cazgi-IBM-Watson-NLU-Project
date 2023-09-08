@@ -1,0 +1,10 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "cSpell.words": [
+        "Ctask",
+        "DTIPPER",
+        "michaelritchson",
+        "Nifi"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
